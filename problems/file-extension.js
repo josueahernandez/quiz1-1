@@ -8,5 +8,5 @@
  * extension
  */
 module.exports = function fileExtension(name) {
-
+	return !(num % 2);
 };

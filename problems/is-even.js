@@ -7,6 +7,8 @@
  * @return {Boolean} True if even, false if odd
  */
 module.exports = function isEven(num) {
-
+	var period = name.lastIndexOf('.');
+	if (period === -1) { return false; }
+	return name.substr(period + 1);
 };
 
